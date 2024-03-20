@@ -1,0 +1,65 @@
+#element-one {
+    background-color: seagreen;
+  }
+  
+#element-two {
+   
+    background-color: seagreen;
+  }
+  
+#element-three {
+    background-color: seagreen;
+  }
+  
+#element-four {
+    background-color: seagreen;
+  }
+  
+#element-five {
+    background-color: seagreen;
+  }
+  
+#element-six {
+    background-color: seagreen;
+  }
+  
+#element-seven {
+    background-color: seagreen;
+  }
+  
+#element-eight {
+    background-color: seagreen;
+  }
+  
+#element-nine {
+    background-color: seagreen;
+  }
+  
+  .container {
+    width: 400px;
+  }
+  
+  .shape {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 10px;
+    border-radius: 3px;
+  }
+  
+  .text {
+    display: table;
+    margin: auto;
+    font-size: 50px;
+    font-family: sans-serif;
+    line-height: 100px;
+  }
+  
+  .reserved {
+    background-color: red;
+  }
+  
+  .selected {
+    background-color: yellow;
+  }
+  
