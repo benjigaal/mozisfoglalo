@@ -78,7 +78,7 @@
                     }
                     if (!document.getElementById(seatNumber).classList.contains("reserved")){
                         selectedForReserving.push(seatNumber);
-
+                        document.getElementById(seatNumber).classlist.add("reserved");
                         document.getElementById(seatNumber).style.backgroundColor = "yellow";
                     }                   
                 })
@@ -92,6 +92,8 @@
                     }
                     
                     if (document.getElementById(seatNumber).classList.contains("reserved")) {
+                        const seatNumberIndex = selectedForReserving.findIndex(reservedSeat => reservedSeat === seatNumber);
+                        console.log(seatNumberIndex);
                         document.getElementById(seatNumber).style.backgroundColor = "seagreen";
                         document.getElementById(seatNumber).classList.remove("reserved");
                     }
